@@ -20,11 +20,11 @@ def f():
     if operation == 0:
         print(first+second)
     if operation == 1:
-        print(first+second)
+        print(first-second)
     if operation == 2:
-        print(first+second)
+        print(first*second)
     if operation == 3:
-        print(first+second)
+        print(first/second)
     else:
         print("you entered a wrong number for the operation")
 
