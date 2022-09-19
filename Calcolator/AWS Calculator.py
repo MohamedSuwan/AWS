@@ -6,7 +6,7 @@ for i in range(4):
     print(f"for {operations[i]} enter {i}")
 print("---------------------------------")
 
-operation=int(input("enter the number assosiated with the operation"))
+operation=int(input("enter the number associated with the operation"))
 print("---------------------------------")
 
 print(f"you chose {operations[operation]}")
