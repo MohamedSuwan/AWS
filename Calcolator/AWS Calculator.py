@@ -19,11 +19,11 @@ print("---------------------------------")
 def f():
     if operation == 0:
         print(first+second)
-    if operation == 1:
+    elif operation == 1:
         print(first-second)
-    if operation == 2:
+    elif operation == 2:
         print(first*second)
-    if operation == 3:
+    elif operation == 3:
         print(first/second)
     else:
         print("you entered a wrong number for the operation")
